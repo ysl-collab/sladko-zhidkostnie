@@ -12,27 +12,33 @@
 <div class="container">
     <h1>Форма заявки заказа</h1>
     <form>
-        <label for="name">Имя получателя:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="name">Имя получателя:<input type="text" id="name" name="name" required>
+        </label>
 
-        <label for="email">Email получателя:</label>
-        <input type="email" id="email" name="email" required>
 
-        <label for="phone">Телефон получателя:</label>
-        <input type="tel" id="phone" name="phone" required>
+        <label for="email">Email получателя:<input type="email" id="email" name="email" required>
+        </label>
 
-        <label for="date">Дата заказа:</label>
-        <input type="text" id="date" name="date">
 
-        <label for="product">Выберите продукт:</label>
-        <select id="product" name="product">
+        <label for="phone">Телефон получателя:<input type="tel" id="phone" name="phone" required>
+        </label>
+
+
+        <label for="date">Дата заказа:<input type="text" id="date" name="date">
+        </label>
+
+
+        <label for="product">Выберите продукт:<select id="product" name="product">
             <option value="product1">1</option>
             <option value="product2">2</option>
             <option value="product3">3</option>
         </select>
+        </label>
 
-        <label for="message">Пожелания:</label>
-        <textarea id="message" name="message"></textarea>
+
+        <label for="message">Пожелания:<textarea id="message" name="message"></textarea>
+        </label>
+
 
         <button type="submit">Отправить заявку</button>
     </form>
