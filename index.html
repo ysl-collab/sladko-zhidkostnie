@@ -9,6 +9,34 @@
     <title>Title</title>
 </head>
 <body>
+<div class="container">
+    <h1>Форма заявки заказа</h1>
+    <form>
+        <label for="name">Имя получателя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email получателя:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Телефон получателя:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="date">Дата заказа:</label>
+        <input type="text" id="date" name="date">
+
+        <label for="product">Выберите продукт:</label>
+        <select id="product" name="product">
+            <option value="product1">1</option>
+            <option value="product2">2</option>
+            <option value="product3">3</option>
+        </select>
+
+        <label for="message">Пожелания:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Отправить заявку</button>
+    </form>
+</div>
 
 </body>
 </html>
